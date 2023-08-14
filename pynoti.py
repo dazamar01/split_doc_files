@@ -2,7 +2,7 @@
 import os
 from PyPDF2 import PdfReader, PdfWriter
 
-path = "/Users/danielazamar-chacha/Desktop/notificacion/notificacion.pdf"
+path = "/some/folder/location/notificacion.pdf"
 fname = "noti_"
 
 pdf = PdfReader(path)
